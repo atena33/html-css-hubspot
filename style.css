@@ -10,22 +10,15 @@ li {
 a {
   text-decoration: none;
 }
-/* Qui iniziano macro regole di debug */
-main {
-  background-color: gray;
-  height: 800px;
+
+header a {
+  color: gray;
 }
 
-footer {
-  background-color: blue;
-  height: 400px;
-}
-/* Qui finiscono le macroregole di debug */
 /* Qui iniziano le regole dell'header fisso */
 .statico {
-  background-color: lightgrey;
+  background-color: #F5F5F5;
   width: 100vw;
-
 }
 
 .statico::after {
@@ -36,13 +29,22 @@ footer {
 
 #sinistro li {
   float: left;
-  padding: 30px 30px;
+  padding: 30px 20px;
 }
+
+#sinistro {
+  padding-left: 80px;
+}
+
+
 
 #destro li {
   float: left;
-  position: relative;
-  padding: 30px 30px;
+  padding-top:30px;
+}
+
+#destro {
+  padding-left: 80vw;
 }
 /* Qui finiscono le regole dell'header fisso */
 
@@ -74,4 +76,127 @@ footer {
   background-position: right;
   text-align: left;
   height: 694px;
+}
+/* Qui iniziano le regole della sezione "servizi"  */
+.servizi {
+  background-color: #F5F5F5;
+}
+
+.centro {
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  padding-bottom: 80px;
+}
+
+#rubik {
+  max-width: 200px;
+  height: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+#powerful {
+  padding-bottom: 30px;
+}
+/* Qui inizia il div a due colonne  */
+
+.padre{
+  margin: 0 10%;
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.padre::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.prima {
+  float: left;
+  width: 20%;
+  padding-right: 300px;
+
+}
+
+.seconda {
+  float: left;
+  width: 60%;
+  padding-top: 30px;
+}
+#dati {
+  width: 200px;
+  height: auto;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+#crm {
+  margin-top:20px;
+  margin-left: 80px;
+  color: white;
+  background-color: orange;
+  padding: 10px 30px;
+  border-radius: 5%;
+}
+
+#titolo-seconda-colonna {
+  padding-bottom: 30px;
+}
+
+#p-seconda-colonna {
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+/* Qui inizia la sezione a tre colonne */
+.padre-3-colonne {
+  background-color: #F5F5F5;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+  height: 600px;
+  text-align: center;
+}
+.padre-3-colonne::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hub {
+  background-color: white;
+  float:left;
+  width: 30%;
+}
+#hub-centro {
+  margin: 0 5%;
+}
+
+.img-hub {
+  height: 200px;
+  width: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.p-hub {
+  padding: 30px 30px;
+  line-height: 30px;
+  text-align: left;
+  border-bottom: solid 2px;
+}
+
+.h6-hub {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hub ul li {
+  text-align: left;
+  padding-left: 30px;
+  line-height: 30px;
+}
+
+.hub ul li ::before {
+  background-image: url(spunta.png);
 }
