@@ -154,8 +154,8 @@ header a {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 40px;
-  height: 600px;
   text-align: center;
+  padding-bottom: 70px;
 }
 .padre-3-colonne::after {
   content: "";
@@ -167,6 +167,7 @@ header a {
   background-color: white;
   float:left;
   width: 30%;
+  padding-bottom: 60px;
 }
 #hub-centro {
   margin: 0 5%;
@@ -186,6 +187,7 @@ header a {
   border-bottom: solid 2px;
 }
 
+
 .h6-hub {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -197,6 +199,88 @@ header a {
   line-height: 30px;
 }
 
-.hub ul li ::before {
-  background-image: url(spunta.png);
+.hub ul {
+  padding-bottom: 40px;
+}
+
+.started {
+  color: white;
+  padding: 15px 25px;
+  border: solid 1px;
+  background-color: #FF7F50;
+  border-radius: 5%;
+}
+/* Qui inizia la sezione con la griglia */
+
+#griglia {
+  height: 2000px;
+  background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
+
+}
+
+#titolo-griglia {
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+#titolo-griglia h2 {
+  padding-bottom: 20px;
+}
+
+#titolo-griglia p {
+  line-height: 30px;
+  font-size: 20px;
+}
+/* Qui inizia la parte con i riquadri */
+.padre-riquadri {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 100vw;
+  padding-top: 80px;
+}
+
+.padre-riquadri ::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.riquadro {
+  float: left;
+  width: 20%;
+  text-align: center;
+  color: white;
+  line-height: 40px;
+  font-size: 40px;
+}
+
+.riquadro img {
+  padding: 30px 0;
+  max-height: 100px;
+}
+
+.riquadro p {
+  font-size: 20px;
+  padding: 20px 0 30px;
+}
+
+.riquadro h2{
+  position: relative;
+}
+
+.riquadro .plus::after {
+  content: '+';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.riquadro .bottom {
+  border-bottom: solid 2 px;
 }
