@@ -299,7 +299,6 @@ border-bottom: solid 2px;
 /* Qui iniziano le regole della sezione finale */
 
 .padre-loghi  {
-  height: 1000px;
   background-color: white;
   margin-left: 10%;
   margin-right: 10%;
@@ -340,4 +339,178 @@ border-bottom: solid 2px;
 }
 .padre-ul li {
   float: left;
+}
+
+/* Qui inizia la seconda parte dell'ultima sezione */
+
+.padre-growing {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  position: relative;
+}
+
+.padre-growing img {
+
+  max-height: 400px;
+  width: auto;
+  position: absolute;
+  right: 0%;
+  top: 150px;
+}
+
+.padre-growing h2 {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#grande {
+  line-height: 20px;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.padre-growing a {
+  border: solid 2px;
+  border-radius: 10%;
+  padding: 10px 20px;
+  background-color: #FF7F50;
+  color: white;
+}
+
+#piccolo {
+  padding-top: 40px;
+}
+
+/* Qui inizia il footer */
+
+footer {
+
+  background-color: #33475b;
+}
+
+/* Qui inizia la parte a colonne */
+
+.padre-4-colonne {
+  margin-left: 10%;
+  padding-top: 50px;
+}
+
+.padre-4-colonne::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.colonna {
+  float:left;
+  width: 23%;
+  padding-right: 40px;
+}
+
+.colonna h4 {
+  color: white;
+  padding-bottom: 40px;
+}
+
+.colonna li {
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.colonna a {
+  color:gray;
+}
+
+#ultimo-link {
+  color: white;
+}
+
+#ultimo-bottone {
+  padding: 10px 5px;
+  background-color: white;
+  border-radius: 5%;
+  background-color: white;
+  color: #33475b;
+  position: relative;
+  top: 30px;
+}
+
+
+
+#padre-icone ::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.flotta {
+  float: left;
+  width: 15%;
+  padding-top: 40px;
+  padding-right: 15px;
+}
+
+/* Qui inizia la parte con le lingue */
+
+.padre-lingue {
+  margin-left: 30%;
+  margin-right: 25%;
+  padding-top: 25px;
+}
+
+.padre-lingue::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.lingua {
+  float: left;
+  color: gray;
+  padding-bottom: 40px;
+}
+
+.lingua a {
+  color: gray;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+/* Qui inizia la parte finale del footer */
+
+.padre-basso {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: gray;
+  border-top: solid 2px;
+}
+
+.padre-basso ::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.padre-basso img {
+  padding-top: 30px;
+}
+
+#basso a {
+ color: gray;
+}
+
+#basso ::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#basso li {
+  float: right;
+  position: relative;
+  top: -50px;
+  padding-right: 20px;
+  font-size: 20px;
 }
