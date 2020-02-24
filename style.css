@@ -16,7 +16,7 @@ a {
 }
 
 header a {
-  color: gray;
+  color: #33475b;
 }
 
 /* Qui iniziano le regole dell'header fisso */
@@ -33,11 +33,18 @@ header a {
 
 #sinistro li {
   float: left;
-  padding: 30px 20px;
+  padding: 30px 15px;
 }
 
 #sinistro {
-  padding-left: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#english {
+  padding-right: 30px;
+  border-right: solid 2px;
+  border-color: lightgray;
 }
 
 
@@ -45,11 +52,30 @@ header a {
 #destro li {
   float: left;
   padding-top:30px;
+  padding-right: 30px;
 }
 
 #destro {
-  padding-left: 80vw;
+  padding-left: 70vw;
 }
+
+#login {
+  padding: 10px 20px;
+  background-color: white;
+  color: #FF7F50;
+  border: solid 2px;
+  border-color: #FF7F50;
+  border-radius: 10%;
+}
+
+.started {
+  color: white;
+  padding: 10px 20px;
+  border: solid 1px;
+  background-color: #FF7F50;
+  border-radius: 10%;
+}
+
 /* Qui finiscono le regole dell'header fisso */
 
 /* Qui iniziano le regole della seconda parte dell'header */
@@ -63,12 +89,19 @@ header a {
 #logo {
   float: left;
   padding: 30px;
+  padding-right: 40vw;
+  margin-left: 10%;
+  height: 90px;
+  width: auto;
 }
 
 #barra li {
   float: left;
   list-style: none;
-  padding: 30px;
+  padding: 30px 15px;
+  font-size: 18px;
+  color: #33475b;
+  font-weight: bold;
 }
 
 /* Qui iniziano le regole della prima section */
@@ -80,7 +113,31 @@ header a {
   background-position: right;
   text-align: left;
   height: 694px;
+  padding-left: 10%;
+  padding-top: 100px;
 }
+
+.jumbotron h1 {
+  color: #33475b;
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+#maggiore {
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+
+#ingrandisci {
+  padding: 25px 30px;
+  font-size: 18px;
+}
+#piccolo {
+  position: relative;
+  top: 30px;
+}
+
 /* Qui iniziano le regole della sezione "servizi"  */
 .servizi {
   background-color: #F5F5F5;
@@ -120,9 +177,12 @@ header a {
   float: left;
   width: 20%;
   padding-right: 300px;
-
 }
 
+#crm {
+  position: relative;
+  left: 60px;
+}
 .seconda {
   float: left;
   width: 60%;
@@ -133,15 +193,7 @@ header a {
   height: auto;
   padding-left: 40px;
   padding-top: 30px;
-}
-
-#crm {
-  margin-top:20px;
-  margin-left: 80px;
-  color: white;
-  background-color: orange;
-  padding: 10px 30px;
-  border-radius: 5%;
+  padding-bottom: 40px;
 }
 
 #titolo-seconda-colonna {
@@ -150,7 +202,20 @@ header a {
 
 #p-seconda-colonna {
   line-height: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.check {
+  float:left;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
+
+hr {
+  position: relative;
+  left: 120px;
+  top: -5px;
 }
 /* Qui inizia la sezione a tre colonne */
 .padre-3-colonne {
@@ -185,15 +250,17 @@ header a {
 }
 
 .p-hub {
-  padding: 30px 30px;
+  margin: 30px 30px;
   line-height: 30px;
   text-align: left;
   border-bottom: solid 2px;
+  border-color: gray;
+  padding-bottom: 30px;
 }
 
 
 .h6-hub {
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 30px;
 }
 
@@ -207,13 +274,7 @@ header a {
   padding-bottom: 40px;
 }
 
-.started {
-  color: white;
-  padding: 15px 25px;
-  border: solid 1px;
-  background-color: #FF7F50;
-  border-radius: 5%;
-}
+
 /* Qui inizia la sezione con la griglia */
 
 #griglia {
