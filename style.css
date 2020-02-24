@@ -24,8 +24,8 @@ header a {
   background-color: #F5F5F5;
   width: 100vw;
   position: fixed;
-
-
+  top:0;
+  z-index: 0;
 }
 
 .statico::after {
@@ -83,7 +83,10 @@ header a {
 
 /* Qui iniziano le regole della seconda parte dell'header */
 
-
+.navigazione {
+  z-index: 1;
+  margin-top: 100px;
+}
 
 .navigazione::after {
   content: "";
