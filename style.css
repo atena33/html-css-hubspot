@@ -23,6 +23,9 @@ header a {
 .statico {
   background-color: #F5F5F5;
   width: 100vw;
+  position: fixed;
+
+
 }
 
 .statico::after {
@@ -79,6 +82,8 @@ header a {
 /* Qui finiscono le regole dell'header fisso */
 
 /* Qui iniziano le regole della seconda parte dell'header */
+
+
 
 .navigazione::after {
   content: "";
@@ -208,8 +213,10 @@ header a {
 .check {
   float:left;
   padding-top: 30px;
-  padding-right: 20px;
+  padding-right: 40px;
+  list-style-image: url(check.png);
 }
+
 
 
 hr {
@@ -272,6 +279,12 @@ hr {
 
 .hub ul {
   padding-bottom: 40px;
+}
+
+.check2 {
+  list-style-image: url(check.png);
+  position: relative;
+  left: 50px;
 }
 
 
